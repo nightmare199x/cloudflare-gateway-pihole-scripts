@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     # Only run on original repository
-    if: ${{ github.repository_id == 635386785 }}
+    if: ${{ github.repository_id == 812807559 }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
